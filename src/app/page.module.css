@@ -1,12 +1,74 @@
-.main {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
-}
+ .main {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 5rem;
+   min-height: 100vh;
+   position: relative;
+   z-index: 10;
+ }
 
+ .container {
+   display: grid;
+   grid-template-rows: 2rem 1fr 1.5rem;
+   overflow: hidden;
+   border-radius: 0.5rem;
+   max-width: 1480px;
+   width: 100%;
+   aspect-ratio: 16/9;   
+    --tw-bg-opacity: 1;
+   background-color: rgb(35 33 53/var(--tw-bg-opacity));
+   --tw-shadow-color: rgba(0,0,0,.2);
+   --tw-shadow: var(--tw-shadow-colored);
+   --tw-shadow: 0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);
+   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color),0 2px 4px -2px var(--tw-shadow-color);
+   box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+ }
+
+
+ .menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+ }
+
+ .details{
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+ }
+
+ .button1{
+  border-radius: 9999px;
+  border: 0;
+  width: 0.75rem;
+  height: 0.75rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(237 106 94/var(--tw-bg-opacity));
+ }
+
+ .button2{
+  border-radius: 9999px;
+  border: 0;
+  width: 0.75rem;
+  height: 0.75rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 191 79/var(--tw-bg-opacity));
+ }
+
+ .button3{
+  border-radius: 9999px;
+  border: 0;
+  width: 0.75rem;
+  height: 0.75rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(97 197 84/var(--tw-bg-opacity));
+ }
+ 
+ /*
 .description {
   display: inherit;
   justify-content: inherit;
@@ -107,7 +169,6 @@
 .logo {
   position: relative;
 }
-/* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
     background: rgba(var(--card-rgb), 0.1);
@@ -125,7 +186,6 @@
   }
 }
 
-/* Mobile */
 @media (max-width: 700px) {
   .content {
     padding: 4rem;
@@ -202,7 +262,6 @@
   }
 }
 
-/* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
   .grid {
     grid-template-columns: repeat(2, 50%);
@@ -226,4 +285,4 @@
   to {
     transform: rotate(0deg);
   }
-}
+} */

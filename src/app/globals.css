@@ -5,24 +5,30 @@
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
+    background-image: linear-gradient(285deg, #ffdfff 0, #ffcbff 25%, #f0b4f4 50%, #d59ee7 75%, #bc8ddd 100%);
+    /* background-image: linear-gradient(270deg,#91eae4,#86a8e7,#7f7fd5); */
+ 
+    /*  
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 
-  --primary-glow: conic-gradient(
+ --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
     #16abff33 0deg,
     #0885ff33 55deg,
-    #54d6ff33 120deg,
-    #0071ff33 160deg,
+    #7f449a33 120deg,
+    #9b4fc733 160deg,
     transparent 360deg
   );
   --secondary-glow: radial-gradient(
     rgba(255, 255, 255, 1),
     rgba(255, 255, 255, 0)
   );
-
   --tile-start-rgb: 239, 245, 249;
+  */
+
+  /* 
   --tile-end-rgb: 228, 232, 233;
   --tile-border: conic-gradient(
     #00000080,
@@ -37,7 +43,8 @@
   --callout-rgb: 238, 240, 241;
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
-  --card-border-rgb: 131, 134, 135;
+  --card-border-rgb: 131, 134, 135; 
+  */
 }
 
 @media (prefers-color-scheme: dark) {
