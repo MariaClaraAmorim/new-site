@@ -1,0 +1,49 @@
+.codeItem {
+  display: flex;
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 300;
+  color: #fff;
+  gap: 1rem;
+  /* transition: 1s !important; */
+}
+
+.codeItem:hover {
+  filter: brightness(1.2);
+}
+@media (max-width: 1450px) {
+  .codeItem {
+    padding: 1.5rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .codeItem {
+    width: 100%;
+  }
+}
+
+@media (max-width: 550px) {
+  .codeItem {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.content {
+  display: flex;
+  align-self: center;
+  gap: 2rem;
+}
+.purple {
+  color: #c38cdd;
+}
+.blue {
+  color: #7ac7e3;
+
+  word-break: break-word;
+}
+.comment {
+  margin-bottom: 1rem;
+  display: block;
+}

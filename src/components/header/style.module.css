@@ -1,0 +1,41 @@
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.details {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.button1 {
+  border-radius: 9999px;
+  border: 0;
+  width: 0.75rem;
+  height: 0.75rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(237 106 94 / var(--tw-bg-opacity));
+}
+
+.button2 {
+  border-radius: 9999px;
+  border: 0;
+  width: 0.75rem;
+  height: 0.75rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 191 79 / var(--tw-bg-opacity));
+}
+
+.button3 {
+  border-radius: 9999px;
+  border: 0;
+  width: 0.75rem;
+  height: 0.75rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(97 197 84 / var(--tw-bg-opacity));
+}
